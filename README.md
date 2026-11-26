@@ -64,17 +64,18 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Szum provides a chart design system that enables developers and AI agents to create consistent, publication‑ready charts across code, Figma, and web interfaces. The platform offers an API and SDKs for rendering PNG and SVG charts, a web editor, and plugins for popular tools. Based in Zürich, Szum aims to simplify data visualization workflows and maintain visual identity across multiple hand‑offs.
+Szum provides a chart design system that integrates with ChatGPT, Claude, Figma, and code environments. It offers a unified visual language for creating, styling, and exporting charts as PNG or SVG via an API and SDKs. The platform includes a web editor, team collaboration features, and extensive documentation for developers. Szum aims to simplify data visualization across AI agents, web apps, and design tools, ensuring consistent styling and easy embedding.
 
-**Areas:** Company · Data Visualization · API · Charting · AI Integration
+**Areas:** Company · Charting · Visualization · API · Design System
 
 ## Szum on APIs.io
 
 Everything profiled for Szum is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/szum-io/](https://apis.io/providers/szum-io/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (2)
 
-- [Szum API](https://apis.io/apis/szum-io/szum-io-api/) — Szum API as documented publicly: 25 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
+- [Chart Image API](https://apis.io/apis/szum-io/chart-image-api/) — Generate chart images via a JSON API.
+- [Szum API](https://apis.io/apis/szum-io/szum-io-api/) — Szum API as documented publicly. Contract generated from the documentation by API Evangelist (2026-11-26); not the provider's own document.
 
 ### Published properties
 
@@ -85,8 +86,8 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 The data models the API reads and writes.
 
 - [GetApiChartRulesResponse](https://apis.io/schemas/szum-io/szum-io-get-api-chart-rules-response/)
-- [GetApiChartsIdResponse](https://apis.io/schemas/szum-io/szum-io-get-api-charts-id-response/)
 - [PostApiChartsIdVersionsNumberRestoreResponse](https://apis.io/schemas/szum-io/szum-io-post-api-charts-id-versions-number-restore-response/)
+- [PostApiChartsRequest](https://apis.io/schemas/szum-io/szum-io-post-api-charts-request/)
 - [PostApiChartsResponse](https://apis.io/schemas/szum-io/szum-io-post-api-charts-response/)
 - [PostValidateRequest](https://apis.io/schemas/szum-io/szum-io-post-validate-request/)
 - [PostValidateResponse](https://apis.io/schemas/szum-io/szum-io-post-validate-response/)
@@ -131,18 +132,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 51.8** — developing · rubric 0.29.0 · scored 2026-11-26
+**Kin Score 49.9** — developing · rubric 0.28.0 · scored 2026-11-26
 
 | Facet | Score |
 |---|---|
-| Discoverability | 64.3 |
-| Contract quality | 60.1 |
+| Discoverability | 57.1 |
+| Contract quality | 55.2 |
 | Contract governance | 79.1 |
 | Operational transparency | 14.3 |
 | Developer ergonomics | 33.3 |
 | Access clarity | 59.1 |
 
-**Agent readiness 36.5** — agent-ready
+**Agent readiness 38.3** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -166,11 +167,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
-| Operation Distinctiveness | mostly (partial credit) |
+| Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
-| Onboarding Descriptor | — |
-| Dns Aid Index | na |
-| Markdown Negotiation | na |
 
 **Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
 
