@@ -1,4 +1,4 @@
-# szum-io
+# Szum
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-szum-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://szum.io/
+Szum provides a chart design system that enables developers and AI agents to create consistent, publication‑ready charts across code, Figma, and web interfaces. The platform offers an API and SDKs for rendering PNG and SVG charts, a web editor, and plugins for popular tools. Based in Zürich, Szum aims to simplify data visualization workflows and maintain visual identity across multiple hand‑offs.
+
+**Areas:** Company · Data Visualization · API · Charting · AI Integration
+
+## Szum on APIs.io
+
+Everything profiled for Szum is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/szum-io/](https://apis.io/providers/szum-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Szum API](https://apis.io/apis/szum-io/szum-io-api/) — Szum API as documented publicly: 25 operations. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiChartRulesResponse](https://apis.io/schemas/szum-io/szum-io-get-api-chart-rules-response/)
+- [GetApiChartsIdResponse](https://apis.io/schemas/szum-io/szum-io-get-api-charts-id-response/)
+- [PostApiChartsIdVersionsNumberRestoreResponse](https://apis.io/schemas/szum-io/szum-io-post-api-charts-id-versions-number-restore-response/)
+- [PostApiChartsResponse](https://apis.io/schemas/szum-io/szum-io-post-api-charts-response/)
+- [PostValidateRequest](https://apis.io/schemas/szum-io/szum-io-post-validate-request/)
+- [PostValidateResponse](https://apis.io/schemas/szum-io/szum-io-post-validate-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Szum Io Context](https://apis.io/jsonld/szum-io/szum-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Szum API Rules](https://apis.io/rules/szum-io/szum-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Szum Authentication](https://apis.io/security/szum-io/szum-io-authentication/)
+- [Szum Domain Security](https://apis.io/security/szum-io/szum-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Szum Plans Pricing](https://apis.io/plans/szum-io/szum-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://szum.io/)
+- [Documentation](https://szum.io/docs)
+- [API reference](https://szum.io/chart-image-api)
+- [Pricing](https://szum.io/pricing)
+- [Support](https://szum.io/support)
+- [Changelog](https://szum.io/docs/changelog)
+- [Terms of service](https://szum.io/terms-of-service)
+- [Privacy policy](https://szum.io/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 51.8** — developing · rubric 0.29.0 · scored 2026-11-26
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 60.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 59.1 |
+
+**Agent readiness 36.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/szum-io/](https://apis.io/providers/szum-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Szum: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/szum-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
